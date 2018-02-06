@@ -49,6 +49,12 @@
   <meta name="baidu-site-verification" content="{{ theme.baidu_site_verification }}" />
 {% endif %}
 
+{% if theme.yandex_site_verification %}
+  <meta name="yandex-verification" content="{{ theme.yandex_site_verification }}" />
+{% endif %}
+
+
+
 
 {% if theme.qihu_site_verification %}
   <meta name="360-site-verification" content="{{ theme.qihu_site_verification }}" />
