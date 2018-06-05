@@ -238,9 +238,9 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
-  totalcount: false
+  wordcount: true
+  min2read: true
+  totalcount: true
   separated_meta: true
 
 # Wechat Subscriber
@@ -250,7 +250,7 @@ post_wordcount:
   #description: ex. subscribe to my blog by scanning my public wechat account
 
 # Reward
-reward_comment: Donate comment here
+reward_comment:
 wechatpay: /images/wechatpay.jpg
 alipay: /images/alipay.jpg
 #bitcoin: /images/bitcoin.png
@@ -285,7 +285,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night eighties
+highlight_theme: normal
 
 
 # ---------------------------------------------------------------
@@ -303,7 +303,7 @@ highlight_theme: night eighties
 font:
   enable: true
 
-  # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
+  # Uri of fonts host. E.g. //canvas_nest(Default).
   host:
 
   # Font options:
@@ -471,7 +471,8 @@ needmoreshare2:
 # See: https://www.google.com/webmasters/
 google_site_verification: XAjyGM_RdYQ515WACIvHUFKjx2jNXvMVZRRDYZGRo4Q
 
-baidu_site_verification: H6BHw01K0Q
+#baidu_site_verification: H6BHw01K0Q
+baidu_site_verification: 2VdSGon0Dp
 # Google Analytics
 google_analytics: UA-102902020-1
 
@@ -692,7 +693,7 @@ motion:
 fancybox: true
 
 # Progress bar in the top during page loading.
-pace: false
+pace: true
 # Themes list:
 #pace-theme-big-counter
 #pace-theme-bounce
@@ -712,7 +713,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # three_waves
 three_waves: false
