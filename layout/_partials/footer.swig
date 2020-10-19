@@ -19,6 +19,10 @@
     #}{{ totalcount(site, '0,0.0a') }}{#
   #}</span>
   {% endif %}
+  <div class=BbeiAn-info">
+    <a href="http://www.beian.miit.gov.cn/">沪ICP备18011513号</a>
+    </a>
+  </div>
 </div>
 
 {% if theme.footer.powered %}
